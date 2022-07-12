@@ -21,3 +21,14 @@ let h = 20
 
 console.log(g === h); // comparing the type and values
 console.log(g !== h);
+
+
+// logical operators
+
+let i = 20
+let j = 30
+
+console.log(i < j && j > i);
+console.log(i < j || j < i);
+console.log(i > j || j <i);
+console.log(!j < !i);
