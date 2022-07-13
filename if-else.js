@@ -32,4 +32,3 @@ let even_odd =
   number % 2 === 0 ? "The given number is Even" : "The given number is odd";
 
 console.log(even_odd);
-
