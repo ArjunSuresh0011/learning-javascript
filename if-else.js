@@ -28,3 +28,11 @@ else if (num%2 === 0){
 else {
     console.log("This is not a number");
 }
+
+// we can also check even or odd using ternery operator 
+
+let number = 21
+
+let even_odd = number % 2 ===0 ? "The given number is Even" : "The given number is odd" 
+
+console.log(even_odd);
