@@ -20,3 +20,15 @@ let mul = function(a,b){
 product = num1*num2
 
 console.log(`product of ${num1} and ${num2} is ${mul(product)}`);
+
+// defult value in function
+
+console.log('===========================================================================\n');
+
+function add(numb1,numb2,numb3=20){
+    return numb1+numb2+numb3;
+}
+
+res = add(10, 10);
+
+console.log(res)
