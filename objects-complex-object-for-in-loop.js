@@ -61,3 +61,17 @@ console.log('===================================================================
  for(b in student){
    console.log(b,student[b]);
  }
+
+ console.log(
+   "===================================================================\n");
+
+   //accesing nested objects . methord 1
+
+  let nested = student['mark in each subjects']['chemistry'];
+  console.log('methord1 '+ nested);
+
+  // methord 2
+
+  console.log('methord2 '+student["mark in each subjects"].chemistry);
+
+  
