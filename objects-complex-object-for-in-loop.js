@@ -53,3 +53,11 @@ and mark obtained in chemistry subjects is ${mark_subjects.chemistry}`
  for(b in student){
     console.log(b,student[b]);
  }
+console.log('===================================================================\n');
+ //deleting property
+
+ delete student.mark;
+
+ for(b in student){
+   console.log(b,student[b]);
+ }
