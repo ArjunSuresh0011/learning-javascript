@@ -8,7 +8,7 @@ let num1 = 10;
 let num2 = 20;
 let sum = num1+num2;
 
-console.log(`sum of ${num1} and ${num2} is ${add(sum)}`+'\n');
+console.log(`sum of ${num1} and ${num2} is ${add(sum)}`);
 
 
 // function Expression
@@ -32,3 +32,15 @@ function add(numb1,numb2,numb3=20){
 res = add(10, 10);
 
 console.log(res)
+
+console.log('======================================================================\n');
+
+let fruit = {
+    name1 : 'Apple',
+    color : 'red',
+    tast : 'sweet',
+
+    orange :()=>console.log('helloworld')
+}
+
+console.log(fruit.orange());
