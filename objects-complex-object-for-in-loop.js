@@ -28,4 +28,28 @@ let mark_subjects = student['mark in each subjects']
 and mark obtained in chemistry subjects is ${mark_subjects.chemistry}`
  )
 
- // for in objects
+ // for in objects print all objects key and values
+
+ for(let a in student){
+    key = [a, student[a]]
+    console.log(key);
+ }
+ 
+ // print all values of objects
+
+ console.log('===================================================================');
+
+ let txt = ''
+ for(let b in student){
+    txt+=student[b] + " "
+    
+ }
+ console.log(txt);
+
+ // adding properties
+
+ student.nationality='Indian'
+
+ for(b in student){
+    console.log(b,student[b]);
+ }
