@@ -1,4 +1,4 @@
-// constructor function and use of this keyword
+// constructor function and use of the this keyword
 
 
 function Employee(name,salary,place){
