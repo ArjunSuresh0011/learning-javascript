@@ -2,7 +2,7 @@
 
 let a = 10;
 let b = 200;
-let c = 30;
+let c = 34;
 
 if (a > b && a > c) {
   console.log("a is gratest");
