@@ -1,6 +1,6 @@
 //  functions in js
 
-function add(a,b){
+function add(c,d){
     return sum
 }
 
