@@ -17,7 +17,7 @@ let preIncrement = ++number1
 let preDecrement = --number1
 
 
-console.log('sum is = '+ result)
+console.log('sum is = ' + result)
 console.log('difference = '+sub)
 console.log('product = '+mul)
 console.log('division = '+div)
