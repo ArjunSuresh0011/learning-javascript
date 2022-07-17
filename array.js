@@ -16,7 +16,7 @@ console.log(data)
 // now fetching data from an array
 
 console.log(`third data is ${data[2]}`);
-console.log(`+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n`);
+console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n`);
 
 // now we are creating mixed type arrays
 
